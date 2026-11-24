@@ -41,8 +41,8 @@
 
   <g transform="translate(800, 150)">
     <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
-    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">OPEN-SOURCE SUITE</text>
-    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">17 Production Tools</text>
-    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5">Zero Lock-In · MIT Licensed · Tested E2E</text>
+    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">SAAS-KILLER SUITE</text>
+    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">20 Open-Source Tools</text>
+    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5">DeWrapper · WhisperFlow · ShipZero · MIT</text>
   </g>
 </svg>
