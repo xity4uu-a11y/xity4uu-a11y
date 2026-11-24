@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="xity4uu-a11y Open-Source Engineering Portfolio">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#181C24" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="280" rx="16" fill="#0B0D11" />
+  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="15.5" fill="none" stroke="#232834" stroke-width="1" />
+
+  <!-- Minimal geometric mark -->
+  <g transform="translate(56, 56)">
+    <rect x="0" y="0" width="44" height="44" rx="10" fill="#131720" stroke="#2A3040" stroke-width="1.2" />
+    <circle cx="15" cy="22" r="3.5" fill="#F3F4F6" />
+    <circle cx="29" cy="14" r="3" fill="#9CA3AF" />
+    <circle cx="29" cy="30" r="3" fill="#9CA3AF" />
+    <line x1="18" y1="20.5" x2="26.2" y2="15.5" stroke="#6B7280" stroke-width="1.4" />
+    <line x1="18" y1="23.5" x2="26.2" y2="28.5" stroke="#6B7280" stroke-width="1.4" />
+  </g>
+
+  <text x="116" y="75" fill="#F9FAFB" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="26" font-weight="600" letter-spacing="-0.02em">xity4uu-a11y</text>
+  <text x="116" y="99" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace" font-size="13" letter-spacing="0.02em">LOCAL-FIRST AI INFRASTRUCTURE  ·  DEVSECOPS  ·  MCP-NATIVE SYSTEMS</text>
+
+  <line x1="56" y1="128" x2="1144" y2="128" stroke="#1F2430" stroke-width="1" />
+
+  <!-- Metric / Pillar cards -->
+  <g transform="translate(56, 150)">
+    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
+    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">FLAGSHIP PLATFORM</text>
+    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">Nexus Agent OS</text>
+    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5">DAG Studio · 28-Tool MCP · Hybrid Memory</text>
+  </g>
+
+  <g transform="translate(428, 150)">
+    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
+    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">RELEASE SECURITY GATE</text>
+    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">Bastion v2.1</text>
+    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5">3-Stage Gate · Ed25519 · Anti-REA Shield</text>
+  </g>
+
+  <g transform="translate(800, 150)">
+    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
+    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">OPEN-SOURCE SUITE</text>
+    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">17 Production Tools</text>
+    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5">Zero Lock-In · MIT Licensed · Tested E2E</text>
+  </g>
+</svg>
