@@ -38,17 +38,22 @@ Building **local-first, zero-lock-in, open-source developer & AI platforms** tha
 - **WebAssembly (`cosine.wasm` 287B kernel) + WebLLM / WebGPU + `sqlite-vec` (`vec0`) + Zero-Dependency Shadow DOM Widget (`60.5 KB` single `<script>`)** executing 100% inside the visitor's browser with zero outbound API calls.
 - Includes a zero-dep docs indexer CLI (`docubot-local build`), hybrid BM25 + Wasm RRF retrieval, instant zero-GPU extractive fallback with `[1]` citations, and 5 validated JSON community plugins (including Luhn/PII input redaction).
 
-### 5. [nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os) — Local-First Multi-Agent OS & Visual Studio (`v1.0.0`)
+### 5. [linkforge](https://github.com/xity4uu-a11y/linkforge) — The Link-in-Bio Killer (`v1.0.0`)
+> **Stop paying `$9/mo` for Linktree Pro. Own your bio-link with a blazing-fast, self-hosted alternative.**
+- **Single-binary Go (`CGO_ENABLED=0` + `embed.FS` + pure-Go SQLite WAL) + self-hosted HTMX 2.0 + custom Markdown parser + SSE instant live-reload** (`< 12 KB` public page, `< 15 KB` static export) PLUS a zero-dependency `npx linkforge` Node 24 (`node:sqlite`) companion CLI.
+- Includes a split-screen HTMX Live Markdown Studio (`/admin`), privacy-first cookie-free SQLite click/CTR/referrer analytics + CSV exports, automatic revision rollback, 4 minimalist themes, and 5 validated community plugins (`newsletter-capture`, `availability-status`, `github-repo-card`, `tip-jar`, `contact-drawer`).
+
+### 6. [nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os) — Local-First Multi-Agent OS & Visual Studio (`v1.0.0`)
 > Open-source local alternative to **LangSmith**, **CrewAI Enterprise**, **Dify Cloud**, and **Zapier AI**.
 - Visual Next.js 15 DAG Studio (8 node types), durable SQLite WAL checkpointing + HITL approvals + time-travel replay, **28-Tool Native MCP Server & `SKILL.md`**, Universal MCP Hub with SHA-256 rug-pull defense, Hybrid FTS5+Vector Memory Graph, Fernet Vault, and Statistical Eval Arena.
 
-### 6. [bastion](https://github.com/xity4uu-a11y/bastion) — 3-Stage Pre-Ship Security & Anti-REA Release Gate (`v2.1.0`)
+### 7. [bastion](https://github.com/xity4uu-a11y/bastion) — 3-Stage Pre-Ship Security & Anti-REA Release Gate (`v2.1.0`)
 > Automated local DevSecOps web app, CLI, and AGPL-clean `Dockerfile.cli`.
 - **Gate 1:** Pluggable TruffleHog / MIT Gitleaks secret quarantine · **Gate 2:** Cloudflare 6-phase Hunter vs. Verifier audit with git-diff scoping & budget caps · **Gate 3:** BLA Anti-REA build hardening + Post-BLA smoke verification + **Ed25519 Signed Release Certificates**.
 
 ---
 
-## Complete Open-Source Engineering Suite (21 Repositories)
+## Complete Open-Source Engineering Suite (22 Repositories)
 
 ### Local-First SaaS Killers & AI Agent Infrastructure
 | Project | Description | Stack | Release |
@@ -57,6 +62,7 @@ Building **local-first, zero-lock-in, open-source developer & AI platforms** tha
 | **[whisperflow](https://github.com/xity4uu-a11y/whisperflow)** | Zero-bot local meeting transcriber (Whisper-large-v3, Virtual Audio Cable, Rust VAD/DSP, SQLite FTS5) | Rust · Python · FastAPI · SQLite FTS5 | `v1.0.0` |
 | **[shipzero](https://github.com/xity4uu-a11y/shipzero)** | Zero-dep `npx create-shipzero` CLI scaffolding Next.js 14 + Local Supabase Docker + Stripe Test Mode | TypeScript · Next.js 14 · Supabase · Stripe | `v1.0.0` |
 | **[docubot-local](https://github.com/xity4uu-a11y/docubot-local)** | In-browser AI docs chatbot with native Wasm cosine kernel, WebLLM/WebGPU, `sqlite-vec` & `60.5 KB` Shadow DOM widget | WebAssembly · WebLLM · WebGPU · `sqlite-vec` | `v1.0.0` |
+| **[linkforge](https://github.com/xity4uu-a11y/linkforge)** | Self-hosted Markdown bio-link server (single Go binary + `npx linkforge`) with HTMX 2.0, SSE live-reload & SQLite WAL analytics | Go · HTMX 2.0 · SQLite · Markdown | `v1.0.0` |
 | **[nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os)** | Multi-Agent OS, Visual DAG Studio, 28-Tool MCP Server, Universal MCP Hub, Hybrid Memory Graph & Eval Arena | Python · FastAPI · Next.js 15 · MCP | `v1.0.0` |
 | **[prompt-firewall](https://github.com/xity4uu-a11y/prompt-firewall)** | OpenAI/Anthropic/Ollama reverse proxy with prompt-injection scoring, reversible Fernet PII vault & YAML tool policies | Python · FastAPI · Next.js 15 | `v1.0.0` |
 | **[mcp-forge](https://github.com/xity4uu-a11y/mcp-forge)** | Universal MCP JSON-RPC 2.0 inspector, stdio proxy, SHA-256 lockfile rug-pull auditor & schema boundary fuzzer | TypeScript · Node.js 22 (0 deps) | `v1.0.0` |
@@ -86,6 +92,6 @@ Building **local-first, zero-lock-in, open-source developer & AI platforms** tha
 ---
 
 ### Core Engineering Principles
-- **Own Your Software:** Zero mandatory cloud accounts, zero per-minute transcription caps, zero `$200` boilerplate paywalls, zero `$50/mo` chatbot API fees.
-- **Community-Extensible by Design:** Declarative JSON plugin/skill schemas (`CONTRIBUTING.md` + automated validators) across DeWrapper, WhisperFlow, ShipZero, DocuBot Local, and Nexus Agent OS.
+- **Own Your Software:** Zero mandatory cloud accounts, zero per-minute transcription caps, zero `$200` boilerplate paywalls, zero `$50/mo` chatbot API fees, zero `$9/mo` bio-link branding taxes.
+- **Community-Extensible by Design:** Declarative JSON plugin/skill schemas (`CONTRIBUTING.md` + automated validators) across DeWrapper, WhisperFlow, ShipZero, DocuBot Local, LinkForge, and Nexus Agent OS.
 - **Cryptographically Verifiable:** Ed25519 release/execution attestations, SHA-256 content-addressed lockfiles, CycloneDX 1.5 SBOMs, and SARIF v2.1.0 outputs.
