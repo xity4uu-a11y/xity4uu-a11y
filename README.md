@@ -12,6 +12,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ### Things I'm most proud of lately
 
+- **[sovereign-memory](https://github.com/xity4uu-a11y/sovereign-memory)** — Encrypted, 100% local digital memory in Rust + Tauri v2 + SQLite FTS5/`sqlite-vec` + local Ollama: captures & deduplicates screen OCR (`dHash`), indexes docs/git/bookmarks/terminal/transcripts, scrubs PII & skips Incognito/password managers, and seals everything at rest with Argon2id + AES-256-GCM.
 - **[morph-os](https://github.com/xity4uu-a11y/morph-os)** — Runtime stream, API, and DOM mutator in Rust + WASM + Tauri v2 + local Ollama/WebLLM: wraps unstructured legacy CLI stdout into strict JSON, translates XML/v1 API payloads over a loopback proxy with a circuit breaker, and runs a 575-byte `.wasm` DOM transformer locally.
 - **[localpdf](https://github.com/xity4uu-a11y/localpdf)** ([Live Web App](https://xity4uu-a11y.github.io/localpdf/)) — Got tired of editing a PDF online only to hit a `$20` paywall at the Download button. Built a browser-only editor (PDF.js + `pdf-lib`) that auto-matches fonts, swaps logos, adds signatures, and merges pages without uploading a single byte.
 - **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** — A `2.44 MB` Rust binary for cookie-free web analytics (`826 B` tracker, local columnar partitions, optional ClickHouse sync, Alpine.js UI).
@@ -22,11 +23,12 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ---
 
-### Full Index (49 Open-Source Repos)
+### Full Index (50 Open-Source Repos)
 
 #### Everyday & Creator Tools
 | Repo | What it does | Stack |
 | --- | --- | --- |
+| **[sovereign-memory](https://github.com/xity4uu-a11y/sovereign-memory)** | Encrypted local digital memory (Argon2id + AES-256-GCM) with dHash screen OCR, git/doc/terminal ingestors, FTS5/`sqlite-vec` & Ollama Q&A | Rust · Tauri v2 · AES-GCM · Ollama |
 | **[localpdf](https://github.com/xity4uu-a11y/localpdf)** | Browser-only PDF editor with font auto-matching, logo swapping, signatures & page merge — zero uploads | React · TypeScript · PDF.js · `pdf-lib` |
 | **[dewrapper](https://github.com/xity4uu-a11y/dewrapper)** | Offline Tauri + Ollama desktop workspace for resumes, SEO drafts, and inline-diff rewrites | Rust · Tauri v2 · React · Ollama |
 | **[whisperflow](https://github.com/xity4uu-a11y/whisperflow)** | Records local system audio via virtual cable, transcribes with Whisper-large-v3, and searches in SQLite FTS5 | Rust · Python · Whisper · SQLite |
