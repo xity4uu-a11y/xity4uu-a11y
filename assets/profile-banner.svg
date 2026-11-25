@@ -1,48 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="xity4uu-a11y Open-Source Engineering Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="xity4uu-a11y personal engineering workshop">
   <defs>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#181C24" stroke-width="1" />
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#171B22" stroke-width="1" />
     </pattern>
   </defs>
 
-  <rect width="1200" height="280" rx="16" fill="#0B0D11" />
-  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
-  <rect x="0.5" y="0.5" width="1199" height="279" rx="15.5" fill="none" stroke="#232834" stroke-width="1" />
+  <rect width="1200" height="260" rx="14" fill="#0B0D11" />
+  <rect width="1200" height="260" rx="14" fill="url(#grid)" />
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="13.5" fill="none" stroke="#222733" stroke-width="1" />
 
-  <!-- Minimal geometric mark -->
-  <g transform="translate(56, 56)">
-    <rect x="0" y="0" width="44" height="44" rx="10" fill="#131720" stroke="#2A3040" stroke-width="1.2" />
-    <circle cx="15" cy="22" r="3.5" fill="#F3F4F6" />
-    <circle cx="29" cy="14" r="3" fill="#9CA3AF" />
-    <circle cx="29" cy="30" r="3" fill="#9CA3AF" />
-    <line x1="18" y1="20.5" x2="26.2" y2="15.5" stroke="#6B7280" stroke-width="1.4" />
-    <line x1="18" y1="23.5" x2="26.2" y2="28.5" stroke="#6B7280" stroke-width="1.4" />
+  <g transform="translate(56, 52)">
+    <rect x="0" y="0" width="42" height="42" rx="9" fill="#131720" stroke="#2A3040" stroke-width="1.2" />
+    <circle cx="14" cy="21" r="3.2" fill="#F3F4F6" />
+    <circle cx="28" cy="14" r="2.8" fill="#9CA3AF" />
+    <circle cx="28" cy="28" r="2.8" fill="#9CA3AF" />
+    <line x1="17" y1="19.5" x2="25.2" y2="15.3" stroke="#6B7280" stroke-width="1.3" />
+    <line x1="17" y1="22.5" x2="25.2" y2="26.7" stroke="#6B7280" stroke-width="1.3" />
   </g>
 
-  <text x="116" y="75" fill="#F9FAFB" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="26" font-weight="600" letter-spacing="-0.02em">xity4uu-a11y</text>
-  <text x="116" y="99" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace" font-size="13" letter-spacing="0.02em">LOCAL-FIRST SAAS KILLERS  ·  AI INFRASTRUCTURE  ·  DEVSECOPS</text>
+  <text x="114" y="70" fill="#F9FAFB" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="25" font-weight="600" letter-spacing="-0.02em">xity4uu-a11y</text>
+  <text x="114" y="93" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace" font-size="12.5" letter-spacing="0.01em">Self-hosted tools, single binaries, and offline apps in Rust, Go, TypeScript &amp; Python</text>
 
-  <line x1="56" y1="128" x2="1144" y2="128" stroke="#1F2430" stroke-width="1" />
+  <line x1="56" y1="122" x2="1144" y2="122" stroke="#1E2330" stroke-width="1" />
 
-  <!-- Metric / Pillar cards -->
-  <g transform="translate(56, 150)">
-    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
-    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">SAAS-KILLER SUITE</text>
-    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">42 Live Open-Source Tools</text>
-    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">Rust · Go · TypeScript · Python · C++17</text>
+  <g transform="translate(56, 144)">
+    <rect x="0" y="0" width="344" height="74" rx="9" fill="#11141B" stroke="#222733" stroke-width="1" />
+    <text x="18" y="25" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="10.5" letter-spacing="0.05em">RECENT BUILDS</text>
+    <text x="18" y="47" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="15.5" font-weight="600">localpdf · ghostmetrics · omni-coder</text>
+    <text x="18" y="64" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">43 open-source repos · MIT licensed</text>
   </g>
 
-  <g transform="translate(428, 150)">
-    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
-    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">AI &amp; AGENT INFRASTRUCTURE</text>
-    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">Omni-Coder · Nexus · RAG-Forge</text>
-    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">WebGPU · Ollama · sqlite-vec · 28-Tool MCP</text>
+  <g transform="translate(428, 144)">
+    <rect x="0" y="0" width="344" height="74" rx="9" fill="#11141B" stroke="#222733" stroke-width="1" />
+    <text x="18" y="25" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="10.5" letter-spacing="0.05em">PRIMARY STACK</text>
+    <text x="18" y="47" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="15.5" font-weight="600">Rust · Go · TypeScript · Python</text>
+    <text x="18" y="64" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">Tauri v2 · SQLite WAL · WebAssembly · MCP</text>
   </g>
 
-  <g transform="translate(800, 150)">
-    <rect x="0" y="0" width="344" height="82" rx="10" fill="#11141B" stroke="#232834" stroke-width="1" />
-    <text x="18" y="28" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11" letter-spacing="0.06em">ZERO-CLOUD ARCHITECTURE</text>
-    <text x="18" y="51" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="16" font-weight="600">1-Click Binaries &amp; CLIs</text>
-    <text x="18" y="70" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">Zero Subscriptions · MIT · TruffleHog Clean</text>
+  <g transform="translate(800, 144)">
+    <rect x="0" y="0" width="344" height="74" rx="9" fill="#11141B" stroke="#222733" stroke-width="1" />
+    <text x="18" y="25" fill="#6B7280" font-family="ui-monospace, SFMono-Regular, monospace" font-size="10.5" letter-spacing="0.05em">DESIGN BIAS</text>
+    <text x="18" y="47" fill="#F3F4F6" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="15.5" font-weight="600">Runs on your own machine</text>
+    <text x="18" y="64" fill="#9CA3AF" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11">Plain files · local DBs · zero cloud lock-in</text>
   </g>
 </svg>

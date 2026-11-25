@@ -1,97 +1,83 @@
 <div align="center">
-  <img src="assets/profile-banner.svg" alt="xity4uu-a11y Open-Source Engineering Portfolio" width="100%" />
-</div>
-
-<div align="center">
-  <br />
-  <img src="https://img.shields.io/badge/Live%20Tools-42%20Open--Source%20Repos-111318?style=flat" alt="42 Live Open-Source Tools" />
-  <img src="https://img.shields.io/badge/Focus-Local--First%20SaaS%20Killers-1D4ED8?style=flat" alt="Local-First SaaS Killers" />
-  <img src="https://img.shields.io/badge/Cloud%20Lock--In-Zero-15803D?style=flat" alt="Zero Cloud Lock-In" />
-  <img src="https://img.shields.io/badge/License-MIT-374151?style=flat" alt="MIT License" />
+  <img src="assets/profile-banner.svg" alt="xity4uu-a11y" width="100%" />
 </div>
 
 <br />
 
-Building **local-first, zero-lock-in, 1-click open-source developer & AI platforms** that replace recurring cloud SaaS subscriptions with fast, auditable, single-binary and self-hosted software you actually own.
+I build small, self-hosted tools and single-binary apps in **Rust, Go, TypeScript, and Python**—mostly scratching my own itch whenever a simple workflow turns into a bloated cloud subscription or forces my data onto someone else's server.
+
+Everything here is MIT-licensed, runs offline or on your own box, and avoids unnecessary cloud dependencies.
 
 ---
 
-## Featured Flagships (The SaaS-Killer Lineup)
+### Things I'm most proud of lately
 
-- **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** (`v1.0.0`) — **Cursor / Copilot Killer:** Rust core + Tauri v2 + Ollama/WebLLM local coding assistant with codebase indexing & safe atomic diff patching (`$0/mo`).
-- **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** (`v1.0.0`) — **Plausible / Fathom Killer:** Single-binary Rust Axum + embedded columnar/ClickHouse + Alpine.js zero-cookie web analytics (`826 B` tracker, `0` cookies).
-- **[zero-metrics](https://github.com/xity4uu-a11y/zero-metrics)** (`v1.0.0`) — **Mixpanel / Amplitude Killer:** High-throughput Go (`717k events/sec`) + embedded columnar/ClickHouse funnels, cohort retention & SvelteKit dashboard (`$0/MAU`).
-- **[rag-forge](https://github.com/xity4uu-a11y/rag-forge)** (`v1.0.0`) — **Pinecone / Weaviate Killer:** C++17 HNSW/SIMD vector search core + Python `ctypes` bindings + `sqlite-vec` (`vec0`) hybrid RAG engine (`$0` egress).
-- **[auth-zero](https://github.com/xity4uu-a11y/auth-zero)** (`v1.0.0`) — **Auth0 / Clerk Killer:** Zero-dep Node 24/TS auth server with Ed25519 JWT/JWKS, RFC 6238 TOTP MFA, OIDC PKCE `S256`, SQLite/libSQL & drop-in React 19 UI (`$0/MAU`).
-- **[db-vanguard](https://github.com/xity4uu-a11y/db-vanguard)** (`v1.0.0`) — **DataGrip / TablePlus Killer:** Pure-Rust + Tauri v2 SQL studio with PostgreSQL v3 wire driver, SQLite 3 inspector, SQL linter & `1.4M rows/sec` constant-memory exports.
-- **[nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os)** (`v1.0.0`) — **LangSmith / CrewAI Killer:** Visual Next.js 15 DAG Studio, 28-tool native MCP server, Universal MCP Hub, Hybrid Memory Graph & Eval Arena.
-- **[bastion](https://github.com/xity4uu-a11y/bastion)** (`v2.1.0`) — **3-Stage Pre-Ship DevSecOps Gate:** Secret quarantine, 6-phase Hunter vs. Verifier audit, Anti-REA build hardening & Ed25519 Signed Release Certificates.
+- **[localpdf](https://github.com/xity4uu-a11y/localpdf)** — Got tired of editing a PDF online only to hit a `$20` paywall at the Download button. Built a browser-only editor (PDF.js + `pdf-lib`) that auto-matches fonts, swaps logos, adds signatures, and merges pages without uploading a single byte.
+- **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** — A `2.44 MB` Rust binary for cookie-free web analytics (`826 B` tracker, local columnar partitions, optional ClickHouse sync, Alpine.js UI).
+- **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** — Local coding assistant wired straight to Ollama and WebLLM, with a Rust repo indexer and atomic diff preview so source code stays on `127.0.0.1`.
+- **[folklore-crm](https://github.com/xity4uu-a11y/folklore-crm)** — Plain-text CRM stored as `contacts/*.md` files inside a regular Git repo, with a Tauri v2 Kanban app that updates whenever you save a file in VS Code.
+- **[db-vanguard](https://github.com/xity4uu-a11y/db-vanguard)** — Pure-Rust + Tauri SQL client built to stream 50k-row CSV/NDJSON exports in flat memory instead of freezing like Electron database tools.
+- **[bastion](https://github.com/xity4uu-a11y/bastion)** — Pre-release security gate combining secret scanning, adversarial diff review, build hardening, and Ed25519 release certificates.
 
 ---
 
-## Complete Open-Source Engineering Suite (42 Live Repositories)
+### Full Index (43 Open-Source Repos)
 
-### Developer Infrastructure SaaS Killers (15)
-| Project | Replaces | Description | Stack | Release |
-| --- | --- | --- | --- | --- |
-| **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** | Cursor · Copilot | Local AI coding assistant with Rust codebase indexer, safe atomic patcher & Ollama/WebLLM | Rust · Tauri v2 · React 19 · WebLLM | `v1.0.0` |
-| **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** | Plausible · Fathom | Single-binary zero-cookie web analytics (`826 B` tracker) with columnar OLAP & ClickHouse bridge | Rust · Axum · ClickHouse · Alpine.js | `v1.0.0` |
-| **[zero-metrics](https://github.com/xity4uu-a11y/zero-metrics)** | Mixpanel · Amplitude | `717k events/sec` Go product analytics (funnels, cohort retention, MAU) + SvelteKit UI | Go · ClickHouse · SvelteKit | `v1.0.0` |
-| **[rag-forge](https://github.com/xity4uu-a11y/rag-forge)** | Pinecone · Weaviate | C++17 HNSW/int8 vector search core + Python `ctypes` bindings + `sqlite-vec` hybrid RRF | C++17 · Python · `sqlite-vec` | `v1.0.0` |
-| **[auth-zero](https://github.com/xity4uu-a11y/auth-zero)** | Auth0 · Clerk | Zero-dep Ed25519 JWT/JWKS, RFC 6238 TOTP MFA, OIDC PKCE `S256`, SQLite/libSQL & React UI | TypeScript · Node 24 · SQLite · React | `v1.0.0` |
-| **[log-terminator](https://github.com/xity4uu-a11y/log-terminator)** | Datadog · LogDNA | `69k lines/sec` 5-format Rust log shipper/parser + sub-ms inverted index/Meilisearch + Next.js UI | Rust · Axum · Meilisearch · Next.js 15 | `v1.0.0` |
-| **[flag-zero](https://github.com/xity4uu-a11y/flag-zero)** | LaunchDarkly | `770k evals/sec` Go feature flag engine with embedded Redis RESP2 server, SSE & Vue 3 UI | Go · RESP2 · SSE · Vue 3 | `v1.0.0` |
-| **[hook-sniper](https://github.com/xity4uu-a11y/hook-sniper)** | ngrok · RequestBin | Untruncated local webhook capture/forwarder/replayer with HMAC verification & embedded HTMX 2.0 | Rust · Axum · Tauri v2 · HTMX 2.0 | `v1.0.0` |
-| **[db-vanguard](https://github.com/xity4uu-a11y/db-vanguard)** | DataGrip · TablePlus | Native pure-Rust SQL studio with Postgres v3 wire driver, SQL linter & `1.4M rows/sec` exports | Rust · Tauri v2 · React 19 | `v1.0.0` |
-| **[pipeline-forge](https://github.com/xity4uu-a11y/pipeline-forge)** | GitHub Actions · CircleCI | Local parallel DAG CI/CD runner reading Actions YAML with Docker Engine v1.45 API & React graph | Go · Docker API · React 19 | `v1.0.0` |
-| **[mail-forge](https://github.com/xity4uu-a11y/mail-forge)** | Mailtrap · SendGrid Dev | Pure-Rust local SMTP (`:1025`) & IMAP4rev1 (`:1143`) dev server with OTP extraction & React inbox | Rust · Axum · SMTP/IMAP · React 19 | `v1.0.0` |
-| **[form-vault](https://github.com/xity4uu-a11y/form-vault)** | Formspree · Basin | Zero-dep Node 24 + SQLite WAL form backend with Naive Bayes spam filters, SMTP & Tailwind templates | TypeScript · Node 24 · SQLite · Tailwind | `v1.0.0` |
-| **[formforge](https://github.com/xity4uu-a11y/formforge)** | Typeform · Jotform | End-to-end encrypted (`libsodium` X25519 sealed boxes) form builder with local SQLite & HMAC webhooks | Next.js 15 · Tailwind · `libsodium` · SQLite | `v1.0.0` |
-| **[mockmaster](https://github.com/xity4uu-a11y/mockmaster)** | Postman Mocks · Prism | Stateful OpenAPI 3.0/3.1 mock server with topological FK Faker.js seeding, chaos & HAR export | TypeScript · Fastify · Faker.js · SQLite | `v1.0.0` |
-| **[shipzero](https://github.com/xity4uu-a11y/shipzero)** | `$200` SaaS Boilerplates | Zero-dep `npx create-shipzero` CLI scaffolding Next.js 14 + Local Supabase Docker + Stripe Test Mode | TypeScript · Next.js 14 · Supabase · Stripe | `v1.0.0` |
+#### Everyday & Creator Tools
+| Repo | What it does | Stack |
+| --- | --- | --- |
+| **[localpdf](https://github.com/xity4uu-a11y/localpdf)** | Browser-only PDF editor with font auto-matching, logo swapping, signatures & page merge — zero uploads | React · TypeScript · PDF.js · `pdf-lib` |
+| **[dewrapper](https://github.com/xity4uu-a11y/dewrapper)** | Offline Tauri + Ollama desktop workspace for resumes, SEO drafts, and inline-diff rewrites | Rust · Tauri v2 · React · Ollama |
+| **[whisperflow](https://github.com/xity4uu-a11y/whisperflow)** | Records local system audio via virtual cable, transcribes with Whisper-large-v3, and searches in SQLite FTS5 | Rust · Python · Whisper · SQLite |
+| **[linkforge](https://github.com/xity4uu-a11y/linkforge)** | Turns a single `links.md` file into a `<12 KB` bio-link page with live SSE/HTMX reload and local analytics | Go · HTMX 2.0 · SQLite · Markdown |
+| **[folklore-crm](https://github.com/xity4uu-a11y/folklore-crm)** | Plain-text Markdown CRM backed by Git with a Tauri desktop Kanban board and CLI | Rust · Git · Markdown · Tauri v2 |
+| **[billzero](https://github.com/xity4uu-a11y/billzero)** | Single-binary freelance invoicing app with ~1.5ms pure-Go PDF 1.4 rendering and Stripe payment links | Go · SQLite · Native PDF |
+| **[docubot-local](https://github.com/xity4uu-a11y/docubot-local)** | Drop-in `60 KB` docs Q&A widget running a 287-byte WebAssembly cosine kernel and optional WebGPU right in the browser | WebAssembly · WebLLM · `sqlite-vec` |
+| **[seo-local](https://github.com/xity4uu-a11y/seo-local)** | Offline Python SERP keyword gap checker, Ollama long-form Markdown drafter, and AI-cliche scrubber | Python · Ollama · Markdown |
+| **[autopilot-social](https://github.com/xity4uu-a11y/autopilot-social)** | Personal social post scheduler using local cron, Ollama Llama-3 editing, and Playwright | Python · Playwright · Ollama · SQLite |
+| **[inboxzero-agent](https://github.com/xity4uu-a11y/inboxzero-agent)** | Self-hosted Python IMAP/SMTP outreach workflow with Ollama drafting and automatic opt-out suppression | Python · IMAP/SMTP · Ollama · SQLite |
+| **[watchtower](https://github.com/xity4uu-a11y/watchtower)** | Go + Rod webpage change monitor that filters out timestamp noise and pings Slack/Discord on real copy or price diffs | Go · Rod · Ollama · SQLite |
 
-### Creator, Business & Local AI SaaS Killers (10)
-| Project | Replaces | Description | Stack | Release |
-| --- | --- | --- | --- | --- |
-| **[dewrapper](https://github.com/xity4uu-a11y/dewrapper)** | Jasper · Copy.ai · Resume.io | Offline AI Wrapper Killer desktop app via Ollama (ATS Resume, SEO, Diff Rewriter + JSON plugins) | Rust · Tauri v2 · React 19 · Ollama | `v1.0.0` |
-| **[whisperflow](https://github.com/xity4uu-a11y/whisperflow)** | Otter.ai · Fireflies | Zero-bot local meeting transcriber (Whisper-large-v3, Virtual Audio Cable, Rust VAD/DSP, SQLite FTS5) | Rust · Python · FastAPI · SQLite FTS5 | `v1.0.0` |
-| **[docubot-local](https://github.com/xity4uu-a11y/docubot-local)** | Intercom Fin · CustomGPT | In-browser AI docs chatbot with native Wasm cosine kernel, WebLLM/WebGPU, `sqlite-vec` & `60.5 KB` widget | WebAssembly · WebLLM · WebGPU · `sqlite-vec` | `v1.0.0` |
-| **[linkforge](https://github.com/xity4uu-a11y/linkforge)** | Linktree Pro · Beacons | Single-binary Go + `npx linkforge` Markdown bio-link server with HTMX 2.0, SSE live-reload & SQLite | Go · HTMX 2.0 · SQLite · Markdown | `v1.0.0` |
-| **[folklore-crm](https://github.com/xity4uu-a11y/folklore-crm)** | HubSpot · Attio · Pipedrive | Plain-text Markdown + local Git-backed CRM with Rust core, Tauri v2 Kanban & time-travel restore | Rust · Git · Markdown · Tauri v2 | `v1.0.0` |
-| **[billzero](https://github.com/xity4uu-a11y/billzero)** | FreshBooks · Wave | Offline-first single-binary Go invoicing app with `1.5ms` native pure-Go PDF 1.4 & Stripe Payment Links | Go · SQLite · Native PDF · Stripe | `v1.0.0` |
-| **[watchtower](https://github.com/xity4uu-a11y/watchtower)** | Visualping · Distill | Single-binary Go + Rod headless Chrome + local LLM semantic diff competitor monitor & Slack webhooks | Go · Rod · Ollama · SQLite | `v1.0.0` |
-| **[seo-local](https://github.com/xity4uu-a11y/seo-local)** | SurferSEO · Jasper | Local SERP semantic gap analyzer, TF-IDF scorer, Ollama long-form writer & AI-cliche humanizer | Python · FastAPI · Ollama · Markdown | `v1.0.0` |
-| **[autopilot-social](https://github.com/xity4uu-a11y/autopilot-social)** | Buffer · Typefully | Local Python + Playwright + Ollama Llama-3 personal social scheduler, cron engine & text humanizer | Python · Playwright · Ollama · SQLite | `v1.0.0` |
-| **[inboxzero-agent](https://github.com/xity4uu-a11y/inboxzero-agent)** | Lemlist · Instantly | Local IMAP/SMTP + Ollama B2B outreach & SQLite lead tracker with built-in CAN-SPAM/GDPR opt-out engine | Python · IMAP/SMTP · Ollama · SQLite | `v1.0.0` |
+#### Web, Data & Developer Infrastructure
+| Repo | What it does | Stack |
+| --- | --- | --- |
+| **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** | Local coding assistant with Rust repo indexing, safe atomic diff patches, and Ollama/WebLLM inference | Rust · Tauri v2 · React · WebLLM |
+| **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** | Single-binary cookie-free web analytics (`826 B` tracker, local columnar store, optional ClickHouse sync) | Rust · Axum · ClickHouse · Alpine.js |
+| **[zero-metrics](https://github.com/xity4uu-a11y/zero-metrics)** | High-throughput Go product event ingestion (funnels, cohort retention, MAU) with a SvelteKit UI | Go · ClickHouse · SvelteKit |
+| **[rag-forge](https://github.com/xity4uu-a11y/rag-forge)** | C++17 HNSW/int8 vector search core with Python bindings and `sqlite-vec` hybrid retrieval | C++17 · Python · `sqlite-vec` |
+| **[auth-zero](https://github.com/xity4uu-a11y/auth-zero)** | Zero-dependency Node 24 auth server (scrypt, Ed25519 JWT/JWKS, TOTP MFA, OIDC PKCE) + React UI | TypeScript · Node 24 · SQLite · React |
+| **[log-terminator](https://github.com/xity4uu-a11y/log-terminator)** | Rust log shipper and 5-format parser with sub-ms local search, optional Meilisearch sync, and Next.js explorer | Rust · Axum · Meilisearch · Next.js |
+| **[flag-zero](https://github.com/xity4uu-a11y/flag-zero)** | Go feature flag server with an embedded Redis RESP2 store, SSE updates, and a Vue 3 UI | Go · RESP2 · SSE · Vue 3 |
+| **[hook-sniper](https://github.com/xity4uu-a11y/hook-sniper)** | Untruncated local webhook capture, HMAC verification, diffing, and replay proxy in Rust + HTMX 2.0 | Rust · Axum · Tauri v2 · HTMX |
+| **[db-vanguard](https://github.com/xity4uu-a11y/db-vanguard)** | Native Rust + Tauri SQL studio with Postgres v3 wire driver, SQL safety linter, and constant-memory exports | Rust · Tauri v2 · React |
+| **[pipeline-forge](https://github.com/xity4uu-a11y/pipeline-forge)** | Runs GitHub Actions YAML workflows locally in parallel via Go and the Docker Engine API | Go · Docker API · React |
+| **[mail-forge](https://github.com/xity4uu-a11y/mail-forge)** | Local SMTP (`:1025`) and IMAP (`:1143`) dev mail catcher in Rust with automatic OTP & magic-link extraction | Rust · Axum · SMTP/IMAP · React |
+| **[formforge](https://github.com/xity4uu-a11y/formforge)** | Next.js form builder that encrypts submissions client-side with `libsodium` before they reach SQLite | Next.js 15 · `libsodium` · SQLite |
+| **[form-vault](https://github.com/xity4uu-a11y/form-vault)** | Zero-dep Node form endpoint backed by SQLite with honeypot, Naive Bayes spam filtering, and Tailwind templates | TypeScript · Node 24 · SQLite · Tailwind |
+| **[mockmaster](https://github.com/xity4uu-a11y/mockmaster)** | Turns any OpenAPI 3.0/3.1 spec into a stateful Fastify mock server seeded with relational Faker data | TypeScript · Fastify · Faker.js |
+| **[shipzero](https://github.com/xity4uu-a11y/shipzero)** | Zero-dep CLI scaffolding Next.js 14, local Docker Supabase, and an offline Stripe webhook simulator | TypeScript · Next.js 14 · Supabase |
 
-### AI Agent Security, Evaluation & MCP Infrastructure (6)
-| Project | Description | Stack | Release |
-| --- | --- | --- | --- |
-| **[nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os)** | Multi-Agent OS, Visual DAG Studio, 28-Tool MCP Server, Universal MCP Hub, Hybrid Memory Graph & Eval Arena | Python · FastAPI · Next.js 15 · MCP | `v1.0.0` |
-| **[prompt-firewall](https://github.com/xity4uu-a11y/prompt-firewall)** | OpenAI/Anthropic/Ollama reverse proxy with prompt-injection scoring, reversible Fernet PII vault & YAML tool policies | Python · FastAPI · Next.js 15 | `v1.0.0` |
-| **[mcp-forge](https://github.com/xity4uu-a11y/mcp-forge)** | Universal MCP JSON-RPC 2.0 inspector, stdio proxy, SHA-256 lockfile rug-pull auditor & schema boundary fuzzer | TypeScript · Node.js 22 (0 deps) | `v1.0.0` |
-| **[agent-replay](https://github.com/xity4uu-a11y/agent-replay)** | Deterministic time-travel debugger, SHA-256 `.replay` bundle SDK, trajectory differ & `pass@k`/`pass^k` CI harness | Python · FastAPI · Typer | `v1.0.0` |
-| **[rag-xray](https://github.com/xity4uu-a11y/rag-xray)** | Offline RAG forensic debugger comparing chunkers x BM25/Dense SVD/Hybrid RRF with Recall@K, MRR & blind-spot diagnosis | Python · NumPy · FastAPI · Next.js 15 | `v1.0.0` |
-| **[local-eval-arena](https://github.com/xity4uu-a11y/local-eval-arena)** | Local LLM benchmark & prompt regression suite with 7 deterministic graders, 95% bootstrap CIs & Bradley-Terry Elo | Python · FastAPI · Typer | `v1.0.0` |
-
-### DevSecOps, Forensics & Systems Tooling (11)
-| Project | Description | Stack | Release |
-| --- | --- | --- | --- |
-| **[bastion](https://github.com/xity4uu-a11y/bastion)** | 3-Stage Pre-Ship Security & Anti-REA Release Gate with Fernet vault, Ed25519 certificates & AGPL-clean `Dockerfile.cli` | Python · FastAPI · Next.js 15 | `v2.1.0` |
-| **[dep-detective](https://github.com/xity4uu-a11y/dep-detective)** | Multi-ecosystem lockfile supply-chain hunter (`npm`, `Python`, `Cargo`, `Go`) with typosquatting, CycloneDX 1.5 SBOM & SARIF | Python · FastAPI · Typer | `v1.0.0` |
-| **[api-drift](https://github.com/xity4uu-a11y/api-drift)** | 3-way OpenAPI 3.0/3.1 vs. AST routes (FastAPI, Express, Next.js) vs. HAR 1.2 traffic shadow-endpoint & auth-guard auditor | Python · AST · FastAPI · SARIF | `v1.0.0` |
-| **[cert-watch](https://github.com/xity4uu-a11y/cert-watch)** | X.509 PEM/DER chain auditor, live TLS handshake probe, OpenSSH & JWT posture inspector with Ed25519 signed snapshots | Python · cryptography · FastAPI | `v1.0.0` |
-| **[log-sleuth](https://github.com/xity4uu-a11y/log-sleuth)** | Streaming 5-format log forensics engine (JSONL, Nginx, Syslog, GitHub Audit, CloudTrail) with anomaly correlation & timelines | Python · FastAPI · Typer | `v1.0.0` |
-| **[sandbox-runner](https://github.com/xity4uu-a11y/sandbox-runner)** | Zero-trust local script execution harness with Merkle filesystem diffing, ambient env scrubbing & Ed25519 attestations | Python · cryptography · SQLite · FastAPI | `v1.0.0` |
-| **[sql-pulse](https://github.com/xity4uu-a11y/sql-pulse)** | PostgreSQL & SQLite migration safety linter with zero-downtime rewrites, dual `EXPLAIN` flame-plan analyzer & ORM N+1 hunter | Python · FastAPI · Next.js 15 | `v1.0.0` |
-| **[code-topo](https://github.com/xity4uu-a11y/code-topo)** | Multi-language AST architecture cartographer (Python, TS/JS, Go, Rust), Tarjan SCC cycle detector & YAML boundary enforcer | Python · AST · FastAPI · SVG | `v1.0.0` |
-| **[webhook-lab](https://github.com/xity4uu-a11y/webhook-lab)** | Local webhook capture & SSE studio, constant-time HMAC-SHA256 signer/verifier (Stripe, GitHub, Slack) & chaos testbench | TypeScript · Node.js 22 (0 deps) | `v1.0.0` |
-| **[diff-lens](https://github.com/xity4uu-a11y/diff-lens)** | Semantic Git PR & release risk analyzer combining AST symbol breaking-change detection, blast radius & changelogs | Python · AST · FastAPI · Typer | `v1.0.0` |
-| **[wire-mock-studio](https://github.com/xity4uu-a11y/wire-mock-studio)** | Record-and-replay HTTP & pure RFC 6455 WebSocket contract simulator, automatic PII cassette sanitizer & chaos proxy | TypeScript · Node.js 22 (0 deps) | `v1.0.0` |
+#### AI Agent Tooling, Testing & Security
+| Repo | What it does | Stack |
+| --- | --- | --- |
+| **[nexus-agent-os](https://github.com/xity4uu-a11y/nexus-agent-os)** | Visual multi-agent DAG studio, SQLite replay checkpoints, 28-tool MCP server, and eval arena | Python · FastAPI · Next.js · MCP |
+| **[bastion](https://github.com/xity4uu-a11y/bastion)** | 3-stage pre-release security gate with secret quarantine, adversarial diff audit, and Ed25519 certificates | Python · FastAPI · Next.js |
+| **[prompt-firewall](https://github.com/xity4uu-a11y/prompt-firewall)** | Reverse proxy for OpenAI/Anthropic/Ollama that scores prompt injections and tokenizes PII locally | Python · FastAPI · Next.js |
+| **[mcp-forge](https://github.com/xity4uu-a11y/mcp-forge)** | JSON-RPC 2.0 traffic inspector, stdio proxy, and SHA-256 lockfile auditor for MCP servers | TypeScript · Node (0 deps) |
+| **[agent-replay](https://github.com/xity4uu-a11y/agent-replay)** | Signed `.replay` trajectory bundles, diff viewer, and `pass@k` regression harness for agents | Python · FastAPI · Typer |
+| **[rag-xray](https://github.com/xity4uu-a11y/rag-xray)** | Compares chunking strategies across BM25, dense SVD, and hybrid RRF to see why RAG queries miss | Python · NumPy · FastAPI |
+| **[local-eval-arena](https://github.com/xity4uu-a11y/local-eval-arena)** | Local LLM prompt regression runner with deterministic graders, bootstrap CIs, and Elo scores | Python · FastAPI · Typer |
+| **[dep-detective](https://github.com/xity4uu-a11y/dep-detective)** | Audits npm, Python, Cargo, and Go lockfiles for typosquats and risky hooks; exports CycloneDX SBOMs | Python · FastAPI · SARIF |
+| **[api-drift](https://github.com/xity4uu-a11y/api-drift)** | Cross-checks OpenAPI specs, AST source routes, and HAR traffic to find shadow endpoints and missing auth | Python · AST · FastAPI |
+| **[cert-watch](https://github.com/xity4uu-a11y/cert-watch)** | X.509 chain auditor, live TLS probe, and SSH/JWT posture checker with signed snapshots | Python · cryptography · FastAPI |
+| **[log-sleuth](https://github.com/xity4uu-a11y/log-sleuth)** | Streaming log forensics engine across JSONL, Nginx, Syslog, GitHub Audit, and CloudTrail | Python · FastAPI · Typer |
+| **[sandbox-runner](https://github.com/xity4uu-a11y/sandbox-runner)** | Copy-on-run local execution harness with Merkle filesystem diffs and scrubbed env vars | Python · SQLite · FastAPI |
+| **[sql-pulse](https://github.com/xity4uu-a11y/sql-pulse)** | Lints risky Postgres/SQLite migrations, visualizes `EXPLAIN` plans, and spots ORM N+1 queries | Python · FastAPI · Next.js |
+| **[code-topo](https://github.com/xity4uu-a11y/code-topo)** | AST import graph across Python, TS/JS, Go, and Rust for finding circular dependencies and dead exports | Python · AST · SVG |
+| **[webhook-lab](https://github.com/xity4uu-a11y/webhook-lab)** | Local webhook capture studio and chaos testbench for Stripe, GitHub, and Slack HMAC handlers | TypeScript · Node (0 deps) |
+| **[diff-lens](https://github.com/xity4uu-a11y/diff-lens)** | AST-level Git diff analyzer flagging breaking symbol changes, blast radius, and changelogs | Python · AST · Typer |
+| **[wire-mock-studio](https://github.com/xity4uu-a11y/wire-mock-studio)** | Records HTTP and WebSocket traffic into PII-scrubbed cassettes for deterministic replay testing | TypeScript · Node (0 deps) |
 
 ---
 
-### Core Engineering Principles
-- **Own Your Software:** Zero mandatory cloud accounts, zero per-MAU/per-GB/per-seat SaaS rent, zero telemetry cookies.
-- **1-Click Local Execution:** Cross-compiled static Go & Rust binaries, zero-dependency Node 24 CLIs (`node:sqlite`), and clean Python `pip` packages.
-- **Community-Extensible & Audited:** Declarative JSON plugin schemas (`CONTRIBUTING.md` + automated validators), automated test suites, and TruffleHog secret verification across every release.
+*Note: All projects include automated test suites, MIT licenses, and are scanned with TruffleHog before tagging releases. Issues and PRs are always welcome.*
