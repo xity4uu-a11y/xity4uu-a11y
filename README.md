@@ -12,7 +12,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ### Things I'm most proud of lately
 
-- **[localpdf](https://github.com/xity4uu-a11y/localpdf)** — Got tired of editing a PDF online only to hit a `$20` paywall at the Download button. Built a browser-only editor (PDF.js + `pdf-lib`) that auto-matches fonts, swaps logos, adds signatures, and merges pages without uploading a single byte.
+- **[localpdf](https://github.com/xity4uu-a11y/localpdf)** ([Live Web App](https://xity4uu-a11y.github.io/localpdf/)) — Got tired of editing a PDF online only to hit a `$20` paywall at the Download button. Built a browser-only editor (PDF.js + `pdf-lib`) that auto-matches fonts, swaps logos, adds signatures, and merges pages without uploading a single byte.
 - **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** — A `2.44 MB` Rust binary for cookie-free web analytics (`826 B` tracker, local columnar partitions, optional ClickHouse sync, Alpine.js UI).
 - **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** — Local coding assistant wired straight to Ollama and WebLLM, with a Rust repo indexer and atomic diff preview so source code stays on `127.0.0.1`.
 - **[folklore-crm](https://github.com/xity4uu-a11y/folklore-crm)** — Plain-text CRM stored as `contacts/*.md` files inside a regular Git repo, with a Tauri v2 Kanban app that updates whenever you save a file in VS Code.
@@ -21,7 +21,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ---
 
-### Full Index (43 Open-Source Repos)
+### Full Index (48 Open-Source Repos)
 
 #### Everyday & Creator Tools
 | Repo | What it does | Stack |
@@ -56,6 +56,10 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 | **[form-vault](https://github.com/xity4uu-a11y/form-vault)** | Zero-dep Node form endpoint backed by SQLite with honeypot, Naive Bayes spam filtering, and Tailwind templates | TypeScript · Node 24 · SQLite · Tailwind |
 | **[mockmaster](https://github.com/xity4uu-a11y/mockmaster)** | Turns any OpenAPI 3.0/3.1 spec into a stateful Fastify mock server seeded with relational Faker data | TypeScript · Fastify · Faker.js |
 | **[shipzero](https://github.com/xity4uu-a11y/shipzero)** | Zero-dep CLI scaffolding Next.js 14, local Docker Supabase, and an offline Stripe webhook simulator | TypeScript · Next.js 14 · Supabase |
+| **[cron-terminator](https://github.com/xity4uu-a11y/cron-terminator)** | Tiny (`< 5 MB` RAM) Rust scheduler daemon for local shell & HTTP jobs with overlap locks, retries, and DLQ | Rust · Tokio · WAL/SQLite |
+| **[pixel-forge](https://github.com/xity4uu-a11y/pixel-forge)** | Self-hosted Rust image resizer and WebP transcoder with SHA-256 disk cache, HMAC URL signing & Next.js UI | Rust · Axum · WebP · Next.js |
+| **[ghost-test](https://github.com/xity4uu-a11y/ghost-test)** | Self-hosted flaky-test & stack-cluster dashboard for Playwright, Vitest, Cypress & JUnit backed by SQLite | TypeScript · Node 24 · SQLite · React |
+| **[vault-zero](https://github.com/xity4uu-a11y/vault-zero)** | Go Argon2id + AES-256-GCM secret vault that injects env vars straight into child processes without `.env` files | Go · Argon2id · AES-GCM · Tauri v2 |
 
 #### AI Agent Tooling, Testing & Security
 | Repo | What it does | Stack |
@@ -77,6 +81,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 | **[webhook-lab](https://github.com/xity4uu-a11y/webhook-lab)** | Local webhook capture studio and chaos testbench for Stripe, GitHub, and Slack HMAC handlers | TypeScript · Node (0 deps) |
 | **[diff-lens](https://github.com/xity4uu-a11y/diff-lens)** | AST-level Git diff analyzer flagging breaking symbol changes, blast radius, and changelogs | Python · AST · Typer |
 | **[wire-mock-studio](https://github.com/xity4uu-a11y/wire-mock-studio)** | Records HTTP and WebSocket traffic into PII-scrubbed cassettes for deterministic replay testing | TypeScript · Node (0 deps) |
+| **[privacy-lab-auditor](https://github.com/xity4uu-a11y/privacy-lab-auditor)** | Educational Go + Docker + Next.js self-audit lab for testing your own browser/VPN against DNS, WebRTC & IPv6 leaks | Go · Docker · Next.js |
 
 ---
 
