@@ -21,6 +21,7 @@ Right now my primary focus is **[sovereign-memory](https://github.com/xity4uu-a1
 | **[folklore-crm](https://github.com/xity4uu-a11y/folklore-crm)** | Plain-text Markdown CRM stored in a standard local Git repository with a Tauri v2 Kanban app and standalone Rust CLI | Rust · Git · Markdown · Tauri v2 | `v1.0.0` |
 | **[db-vanguard](https://github.com/xity4uu-a11y/db-vanguard)** | Native Rust + Tauri SQL client with a pure-Rust Postgres v3 wire driver, SQL safety linter, and constant-memory streaming exports (`1.4M rows/sec`) | Rust · Tauri v2 · React 19 | `v1.0.0` |
 | **[billzero](https://github.com/xity4uu-a11y/billzero)** | Offline-first single-binary freelance invoicing app in Go with SQLite WAL, `~1.5ms` pure-Go PDF 1.4 rendering, and optional Stripe payment links | Go · SQLite · Native PDF | `v1.0.0` |
+| **[tradebox-local](https://github.com/xity4uu-a11y/tradebox-local)** | Self-hosted 24/7 MetaTrader 5 watchdog, UTF-16LE journal/EA log parser, broker TCP latency monitor, Telegram/Discord alerts, and Linux Wine+noVNC Docker stack | Go · Docker · Wine · noVNC | `v1.0.0` |
 | **[bastion](https://github.com/xity4uu-a11y/bastion)** | Three-stage pre-release security gate combining secret scanning, adversarial diff review, build hardening, and Ed25519 signed release certificates | Python · FastAPI · Next.js 15 | `v2.1.0` |
 
 ---
