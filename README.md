@@ -12,6 +12,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ### Things I'm most proud of lately
 
+- **[morph-os](https://github.com/xity4uu-a11y/morph-os)** — Runtime stream, API, and DOM mutator in Rust + WASM + Tauri v2 + local Ollama/WebLLM: wraps unstructured legacy CLI stdout into strict JSON, translates XML/v1 API payloads over a loopback proxy with a circuit breaker, and runs a 575-byte `.wasm` DOM transformer locally.
 - **[localpdf](https://github.com/xity4uu-a11y/localpdf)** ([Live Web App](https://xity4uu-a11y.github.io/localpdf/)) — Got tired of editing a PDF online only to hit a `$20` paywall at the Download button. Built a browser-only editor (PDF.js + `pdf-lib`) that auto-matches fonts, swaps logos, adds signatures, and merges pages without uploading a single byte.
 - **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** — A `2.44 MB` Rust binary for cookie-free web analytics (`826 B` tracker, local columnar partitions, optional ClickHouse sync, Alpine.js UI).
 - **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** — Local coding assistant wired straight to Ollama and WebLLM, with a Rust repo indexer and atomic diff preview so source code stays on `127.0.0.1`.
@@ -21,7 +22,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 
 ---
 
-### Full Index (48 Open-Source Repos)
+### Full Index (49 Open-Source Repos)
 
 #### Everyday & Creator Tools
 | Repo | What it does | Stack |
@@ -41,6 +42,7 @@ Everything here is MIT-licensed, runs offline or on your own box, and avoids unn
 #### Web, Data & Developer Infrastructure
 | Repo | What it does | Stack |
 | --- | --- | --- |
+| **[morph-os](https://github.com/xity4uu-a11y/morph-os)** | Local runtime stream, HTTP reverse-proxy & WASM DOM mutator with circuit-broken Ollama/WebLLM pipeline & Tauri UI | Rust · WASM · Tauri v2 · Ollama |
 | **[omni-coder](https://github.com/xity4uu-a11y/omni-coder)** | Local coding assistant with Rust repo indexing, safe atomic diff patches, and Ollama/WebLLM inference | Rust · Tauri v2 · React · WebLLM |
 | **[ghostmetrics](https://github.com/xity4uu-a11y/ghostmetrics)** | Single-binary cookie-free web analytics (`826 B` tracker, local columnar store, optional ClickHouse sync) | Rust · Axum · ClickHouse · Alpine.js |
 | **[zero-metrics](https://github.com/xity4uu-a11y/zero-metrics)** | High-throughput Go product event ingestion (funnels, cohort retention, MAU) with a SvelteKit UI | Go · ClickHouse · SvelteKit |
